@@ -80,7 +80,7 @@ const GP = ({ token }) => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container py-7 mx-auto">
-        <div className="flex justify-center mb-4">
+        <div className="flex justify-center mx-4 mb-4">
           <input
             type="text"
             className="border p-2 rounded-l-md focus:outline-none w-full"
