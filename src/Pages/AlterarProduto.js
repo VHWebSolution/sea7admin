@@ -248,7 +248,7 @@ const AlterarProduto = ({ token }) => {
             </label>
             <input
               type='file'
-              className='form-input-file mt-1'
+              className='w-full focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 leading-8 transition-colors duration-200 ease-in-out"'
               id='produtoImagensSec'
               name='produtoImagensSec'
               multiple
