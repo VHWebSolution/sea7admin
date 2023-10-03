@@ -106,9 +106,9 @@ const AdicionarProduto = ({ token }) => {
   return (
     <div className='grid mx-auto pt-0.5'>
     <div className='flex justify-center items-center min-h-screen px-4'>
-      <div className='bg-white p-6 md:p-10 w-full md:w-1/2 rounded-md shadow-md border-gray-200 border-[5px] flex flex-col'>
+      <div className='class="bg-white p-6 md:p-10 w-full md:w-1/2 rounded-md shadow-md border-gray-200 border-[5px] flex flex-col md:flex-row'>
         {/* Parte Esquerda - Inputs */}
-        <form onSubmit={handleSubmit} className='space-y-4 w-2/3 pr-4'>
+        <form onSubmit={handleSubmit} className='space-y-4 w-full md:w-2/3 pr-4'>
           <label htmlFor='nomeProduto' className='text-gray-900 font-semibold'>
             Nome da embarcação:
           </label>
