@@ -6,7 +6,7 @@ const TotalItemsProvider = ({ children }) => {
 
   const fetchItems = async () => {
     try {
-      const response = await axios.get('http://localhost:8080/buscar');
+      const response = await axios.get('https://www.sea7api.com.br/buscar');
       const itemsData = response.data;
       setTotalItems(itemsData.length);
     } catch (error) {
