@@ -161,7 +161,7 @@ const AlterarProduto = ({ token }) => {
               className='w-full rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
               id='nomeProduto'
               name='nomeProduto'
-              value={produto.nomeProduto}
+              placeholder={produto.nomeProduto}
               onChange={handleChange}
             />
 
@@ -173,7 +173,7 @@ const AlterarProduto = ({ token }) => {
               className='w-full rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
               id='precoProduto'
               name='precoProduto'
-              value={produto.precoProduto}
+              placeholder={produto.precoProduto}
               onChange={handleChange}
             />
 
