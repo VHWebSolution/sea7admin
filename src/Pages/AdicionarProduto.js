@@ -177,7 +177,7 @@ const AdicionarProduto = ({ token }) => {
         </form>
   
         {/* Parte Direita - Imagens */}
-        <div className='w-1/3 mt-4'>
+        <div className='w-2/3 lg:w-1/3 mt-4'>
         <div className='grid'>
                 <label htmlFor='produtoImagem' className='text-gray-900 font-semibold'>
                     Imagem Destaque:
