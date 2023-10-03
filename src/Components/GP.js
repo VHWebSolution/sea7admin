@@ -96,7 +96,7 @@ const GP = ({ token }) => {
           </datalist>
         </div>
 
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap m-4">
           {filteredItems.map((item) => (
               <div className="lg:w-1/5 md:w-1/2 p-4 w-full" key={item.id}>
                 <a className="block relative h-48 rounded overflow-hidden">
