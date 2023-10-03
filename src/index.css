@@ -1,0 +1,18 @@
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-rounded-bl {
+  border-bottom-left-radius: 20px;
+}
+
+.custom-rounded-br {
+  border-bottom-right-radius: 20px;
+}

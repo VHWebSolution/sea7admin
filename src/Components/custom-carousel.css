@@ -1,0 +1,11 @@
+.carousel .slide {
+    width: 20vw;
+    height: 200px;
+
+  }
+
+  .carousel .slide img {
+    width: auto;
+    height: 20vh;
+  
+  }
