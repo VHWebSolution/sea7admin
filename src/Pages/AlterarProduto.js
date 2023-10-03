@@ -161,7 +161,7 @@ const AlterarProduto = ({ token }) => {
               className='w-full rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
               id='nomeProduto'
               name='nomeProduto'
-              value={produtoExistente.nomeProduto}
+              value={produto.nomeProduto}
               onChange={handleChange}
             />
 
@@ -173,7 +173,7 @@ const AlterarProduto = ({ token }) => {
               className='w-full rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
               id='precoProduto'
               name='precoProduto'
-              value={produtoExistente.precoProduto}
+              value={produto.precoProduto}
               onChange={handleChange}
             />
 
@@ -185,7 +185,7 @@ const AlterarProduto = ({ token }) => {
               className='w-full rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
               id='quantidadeProduto'
               name='quantidadeProduto'
-              value={produtoExistente.quantidadeProduto}
+              value={produto.quantidadeProduto}
               onChange={handleChange}
             />
 
@@ -197,7 +197,7 @@ const AlterarProduto = ({ token }) => {
               className='w-full rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
               id='descricaoCurta'
               name='descricaoCurta'
-              value={produtoExistente.descricaoCurta}
+              value={produto.descricaoCurta}
               onChange={handleChange}
             />
 
@@ -208,7 +208,7 @@ const AlterarProduto = ({ token }) => {
               className='w-full rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
               id='descricaoCompleta'
               name='descricaoCompleta'
-              value={produtoExistente.descricaoCompleta}
+              value={produto.descricaoCompleta}
               onChange={handleChange}
             />
 
