@@ -69,7 +69,7 @@ const Sidebar = ({ children }) => {
               <span>Gerenciar Embarcações</span>
             </div>
           </NavLink>
-          <NavLink to='https://vhwebsolutions.com.br/'>
+          <NavLink to='https://sea7.com.br/'>
             <div className='text-white hover:bg-gray-600 cursor-pointer my-2 p-3 rounded-lg flex gap-3 items-center'>
                 <BsGlobeAmericas size={20} />
                 <span>Acessar o site</span>
